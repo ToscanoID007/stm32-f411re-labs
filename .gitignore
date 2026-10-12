@@ -1,0 +1,41 @@
+﻿# STM32CubeIDE - Workspace
+.metadata/
+
+# Build outputs
+**/Debug/
+**/Release/
+**/build/
+
+# Compiled firmware
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Compiler intermediate files
+*.o
+*.d
+*.su
+*.gcda
+*.gcno
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Plantilla descargada
+stm32-f411re-labs-starter.zip
+
+# Plantilla extraida
+stm32-f411re-labs-starter/
+
+# Configuracion local de Eclipse y depuracion
+**/.settings/
+*.launch
